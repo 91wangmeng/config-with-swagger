@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      server:
+        prefix: /control_config/
+  profiles:
+    active: native
